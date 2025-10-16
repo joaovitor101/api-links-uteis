@@ -17,7 +17,7 @@ class HelloControllerTest {
 
     @Test
     void deveRetornarMensagemHello() {
-        // Teste mais simples possível
+        // Teste simples
         String resultado = controller.hello();
         assertEquals("Olá Fatec", resultado);
     }
